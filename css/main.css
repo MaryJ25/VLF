@@ -1387,7 +1387,7 @@ header .logo a {
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 1rem;
 }
 
 .about-content {
@@ -1424,19 +1424,6 @@ header .logo a {
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1;
-}
-.about-content .skill-bars .skill-text {
-	margin-top: 6rem;
-}
-
-.button-section {
-	text-align: center;
-}
-.button-section .button {
-	width: 250px;
-}
-.button-section [class*="col-"] .button:first-child {
-	margin-right: 4rem;
 }
 
 /**
