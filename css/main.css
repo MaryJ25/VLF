@@ -1733,6 +1733,13 @@ header .logo a {
 	transform: scale(1.05);
 }
 
+#folio-wrapper {
+	position: relative;
+	height: 1512.48px;
+}
+	
+
+
 /**
  * responsive:
  * program
