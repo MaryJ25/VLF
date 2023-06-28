@@ -1333,7 +1333,8 @@ header .logo a {
 }
 @media only screen and (max-width:600px) {
 	#intro {
-		background: #151515 url(../images/VLF_Cover_narrow.png) no-repeat center bottom;
+		background: #151515 url(../images/VLF_Cover_narrow.png) no-repeat center bottom; 
+		background-size: cover;
 		min-height: 600px;
 	}
 	.intro-content h1 {
@@ -1360,7 +1361,7 @@ header .logo a {
 }
 
 
-/** 
+/** 50%  
  * ===================================================================
  * 11. about - (_layout.scss)
  *
