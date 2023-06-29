@@ -1593,10 +1593,10 @@ header .logo a {
 }
 
 .timetable .places > div {
-	display: grid;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-  width: 100%;
+ 	width: 100%;
 	height: 100%;
 	box-shadow: inset 1px 0 0 #eceff1;
 }
@@ -1605,7 +1605,7 @@ header .logo a {
 	grid-area: time;
 	display: grid;
 	grid-template-rows: repeat(6, 1fr);
-	font-size: 14px;
+	font-size: 12px;
 }
 .timetable .time-interval > div {
 	display: flex;
@@ -1626,35 +1626,12 @@ header .logo a {
 	box-shadow: inset 1px 0 0 #eceff1, inset 0 1px 0 0 #eceff1;
 }
 
-
 #schedule .schedule-header {
 	text-align: center;
 }
+
 #schedule .schedule-header h2 {
 	color: #2c4c7c;
-}
-
-#schedule .schedule-timeline {
-	max-width: 980px;
-}
-#schedule .timeline-wrap {
-	position: relative;
-	margin-top: 1.5rem;
-	margin-bottom: 6rem;
-}
-#schedule .timeline-wrap::before {
-	content: "";
-	display: block;
-	width: 1px;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
-	position: absolute;
-	left: 35%;
-	top: 0;
-}
-#schedule .timeline-block {
-	position: relative;
-	padding-top: 1.5rem;
 }
 
 #schedule .timeline-header {
@@ -1663,9 +1640,11 @@ header .logo a {
 	padding-right: 90px;
 	text-align: right;
 }
+
 #schedule .timeline-header h3 {
 	margin-bottom: 0;
 }
+
 #schedule .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
@@ -1679,6 +1658,7 @@ header .logo a {
 	position: relative;
 	padding-bottom: 1.8rem;
 }
+
 #schedule .timeline-content h4::after {
 	content: "";
 	display: block;
